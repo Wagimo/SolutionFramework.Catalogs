@@ -1,5 +1,5 @@
-cd ..
 
+cd ..
 # Vars
 $path = "06.Testing\Features\Activities\SolutionFramework.Actitities.Test"
 $project = "$path\SolutionFramework.Actitities.Test.csproj"

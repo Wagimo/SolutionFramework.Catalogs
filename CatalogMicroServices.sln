@@ -17,7 +17,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06.Testing", "06.Testing", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07.Scripts", "07.Scripts", "{B756F485-DEC0-4DD1-BF44-4C08E4599295}"
 	ProjectSection(SolutionItems) = preProject
-		07.Scripts\run-scanner-sonarqube.ps1 = 07.Scripts\run-scanner-sonarqube.ps1
+		scripts\run-scanner-sonarqube.ps1 = scripts\run-scanner-sonarqube.ps1
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SolutionFrameWork.API", "01.API\SolutionFrameWork.API\SolutionFrameWork.API.csproj", "{58EF8575-F390-4CA2-A35B-BCFDF0879F77}"
