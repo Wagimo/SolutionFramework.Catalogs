@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\04.Infraestructure\02.Sdk\SolutionFramework.EFcore\SolutionFramework.EFcore.csproj" />
+    <ProjectReference Include="..\..\05.Common\03.Exceptions\SolutionFramework.Exceptions\SolutionFramework.Exceptions.csproj" />
+    <ProjectReference Include="..\SolutionFramework.Entities\SolutionFramework.Entities.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,82 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	<ProjectGuid>2e864c02-5380-4cde-8121-3a72e13171d3</ProjectGuid>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Features\ApproverMatrix\Command\Create\" />
+    <Folder Include="Features\ApproverMatrix\Command\Delete\" />
+    <Folder Include="Features\ApproverMatrix\Command\Update\" />
+    <Folder Include="Features\ApproverMatrix\Queries\GetAll\" />
+    <Folder Include="Features\ApproverMatrix\Queries\GetById\" />
+    <Folder Include="Features\Areas\Command\Create\" />
+    <Folder Include="Features\Areas\Command\Delete\" />
+    <Folder Include="Features\Areas\Command\Update\" />
+    <Folder Include="Features\Areas\Queries\GetAll\" />
+    <Folder Include="Features\Areas\Queries\GetById\" />
+    <Folder Include="Features\Companies\Command\Create\" />
+    <Folder Include="Features\Companies\Command\Delete\" />
+    <Folder Include="Features\Companies\Command\Update\" />
+    <Folder Include="Features\Companies\Queries\GetAll\" />
+    <Folder Include="Features\Companies\Queries\GetById\" />
+    <Folder Include="Features\ContractsTemplates\Command\Create\" />
+    <Folder Include="Features\ContractsTemplates\Command\Delete\" />
+    <Folder Include="Features\ContractsTemplates\Command\Update\" />
+    <Folder Include="Features\ContractsTemplates\Queries\GetAll\" />
+    <Folder Include="Features\ContractsTemplates\Queries\GetById\" />
+    <Folder Include="Features\ContractsType\Command\Create\" />
+    <Folder Include="Features\ContractsType\Command\Delete\" />
+    <Folder Include="Features\ContractsType\Command\Update\" />
+    <Folder Include="Features\ContractsType\Queries\GetAll\" />
+    <Folder Include="Features\ContractsType\Queries\GetById\" />
+    <Folder Include="Features\DocumentsType\Command\Create\" />
+    <Folder Include="Features\DocumentsType\Command\Delete\" />
+    <Folder Include="Features\DocumentsType\Command\Update\" />
+    <Folder Include="Features\DocumentsType\Queries\GetAll\" />
+    <Folder Include="Features\DocumentsType\Queries\GetById\" />
+    <Folder Include="Features\EmailTemplates\Command\Create\" />
+    <Folder Include="Features\EmailTemplates\Command\Delete\" />
+    <Folder Include="Features\EmailTemplates\Command\Update\" />
+    <Folder Include="Features\EmailTemplates\Queries\GetAll\" />
+    <Folder Include="Features\EmailTemplates\Queries\GetById\" />
+    <Folder Include="Features\HolyDays\Command\Create\" />
+    <Folder Include="Features\HolyDays\Command\Delete\" />
+    <Folder Include="Features\HolyDays\Command\Update\" />
+    <Folder Include="Features\HolyDays\Queries\GetAll\" />
+    <Folder Include="Features\HolyDays\Queries\GetById\" />
+    <Folder Include="Features\MenuItems\Command\Create\" />
+    <Folder Include="Features\MenuItems\Command\Delete\" />
+    <Folder Include="Features\MenuItems\Command\Update\" />
+    <Folder Include="Features\MenuItems\Queries\GetAll\" />
+    <Folder Include="Features\MenuItems\Queries\GetById\" />
+    <Folder Include="Features\OptionList\Command\Create\" />
+    <Folder Include="Features\OptionList\Command\Delete\" />
+    <Folder Include="Features\OptionList\Command\Update\" />
+    <Folder Include="Features\OptionList\Queries\GetAll\" />
+    <Folder Include="Features\OptionList\Queries\GetById\" />
+    <Folder Include="Features\Providers\Command\Create\" />
+    <Folder Include="Features\Providers\Command\Delete\" />
+    <Folder Include="Features\Providers\Command\Update\" />
+    <Folder Include="Features\Providers\Queries\GetAll\" />
+    <Folder Include="Features\Providers\Queries\GetById\" />
+  </ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="AutoMapper" Version="11.0.1" />
+		<PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+		<PackageReference Include="FluentValidation" Version="11.0.1" />
+		<PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.0.1" />
+		<PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="10.0.1" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="6.0.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\..\03.Domain\SolutionFramework.Abstractions\SolutionFramework.Abstractions.csproj" />
+	  <ProjectReference Include="..\..\03.Domain\SolutionFramework.Entities\SolutionFramework.Entities.csproj" />
+	</ItemGroup>
+
+</Project>
